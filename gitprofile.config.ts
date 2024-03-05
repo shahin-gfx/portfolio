@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'mashunterbd', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -52,112 +52,88 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Md. Abu Bakar Siddik ',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    linkedin: 'mashunter',
+    twitter: 'mashunterbd',
+    mastodon: '',
+    facebook: 'masshuvo.fb',
+    instagram: 'masshuvo.ins',
+    youtube: 'mashunter', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'mashunter',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
+    telegram: 'mashunterbd',
+    website: 'https://www.mashunter.xyz',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'mdabubakar.mail.bd@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'JavaScript',
+    'Python',
+    'C',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Byte Capsule',
+      position: 'Jr.Penetration Taster',
+      from: 'February 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://bytecapsuleit.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'YouTube Inc',
+      position: 'Content Creator',
+      from: 'August 2020',
+      to: 'Present',
+      companyLink: 'https://www.youtube.com/@mashunter',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Ethical Hacking for Professionals',
+      body: 'This certificate is proudly presented by Byte Capsule for successfully completing 7 Months of online course',
+      year: 'February 2024',
+      link: 'https://drive.google.com/file/d/1w9CgoVDU3VF4jQEjVFQJdRlbPCOHsfJg/view?usp=drivesdk',
     },
+    { 
+    name: 'Certified Ethical Hacker',
+      body: 'Certification through examination administered by Team Matrix',
+      year: 'August 2023',
+      link: 'https://drive.google.com/file/d/1b5ehHZJfdEkXbrUvPZSZnglkRsELpjhi/view?usp=drivesdk',
+      }
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Anjuman Mokhlesur Rahman Polytechnic Institute',
+      degree: 'Computer Science and Engineering [CSE]',
+      from: '2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      institution: 'Metropolitan Creative College',
+      degree: 'Secondary School Certificate [SSC]',
+      from: '2019',
+      to: '2020',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -168,7 +144,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'nord',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -232,12 +208,12 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/mashunterbd/mashunter"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
