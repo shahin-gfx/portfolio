@@ -211,7 +211,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/mashunterbd/mashunter"
       target="_blank"
       rel="noreferrer"
-    >mashunterbd</a>
+    >mashunterbd</a> and ❤️`,
 
   enablePWA: false,
 };
