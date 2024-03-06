@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Helpful video Content',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'I have a YouTube channel through which I create content and distribute it to everyone so that everyone can benefit from it',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/mashunterbd/mashunter/main/image/Picsart_24-03-06_16-17-15-331.jpg',
+          link: 'https://www.youtube.com/@mashunter',
         },
         {
-          title: 'Project Name',
+          title: 'Problem Solving Community',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Many problems related to Android, Linux, and Windows are constantly encountered by our community with some solutions and is updated over time',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/mashunterbd/mashunter/main/image/Picsart_24-03-06_16-20-26-775.jpg',
+          link: 'https://t.me/sloveproblems',
         },
       ],
     },
