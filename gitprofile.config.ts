@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'mashunterbd', // Your GitHub org/user name. (This is the only required config)
+    username: 'shahin-gfx', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/mashunter/',
+  base: '/shahin-gfx/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Md. Abu Bakar Siddik ',
+    title: 'Portfolio of Shahin Alom ',
     description: '',
     imageURL: '',
   },
