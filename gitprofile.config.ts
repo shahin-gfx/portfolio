@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/shahin-gfx/',
+  base: '/portfolio/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -76,7 +76,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1z6XcqaDIR20UWdqyjexM_wSZDyJ7R-O1/view?usp=drivesdk', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1z6XcqaDIR20UWdqyjex', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'HTML',
@@ -106,13 +106,13 @@ const CONFIG = {
       name: 'Ethical Hacking for Professionals',
       body: 'This certificate is proudly presented by Byte Capsule for successfully completing 7 Months of online course',
       year: 'February 2024',
-      link: 'https://drive.google.com/file/d/1w9CgoVDU3VF4jQEjVFQJdRlbPCOHsfJg/view?usp=drivesdk',
+      link: 'https://drive.google.com/file/d/1wview?usp=drivesdk',
     },
     { 
     name: 'Certified Ethical Hacker',
       body: 'Certification through examination administered by Team Matrix',
       year: 'August 2023',
-      link: 'https://drive.google.com/file/d/1b5ehHZJfdEkXbrUvPZSZnglkRsELpjhi/view?usp=drivesdk',
+      link: 'https://drive.google.com/file/d/1b5ehHZJfdEkXbrUjhi/view?usp=drivesdk',
       }
   ],
   educations: [
